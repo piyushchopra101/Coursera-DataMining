@@ -1,0 +1,7 @@
+mytrain - The cleaned Training dataset
+mytest - the cleaned Test dataset
+total_data - Entire data set after cleanup- addition of train and test dataset
+total_meanvalues - Dataset with only mean values of observations
+total_std - Dataset with only std. deviation values of observations
+total_Mean_Std -  Dataset with both mean and Standard Deviation Values
+tidyset - individual tidy dataset 

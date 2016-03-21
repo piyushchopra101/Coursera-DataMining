@@ -1,3 +1,25 @@
+# ------------------------------------------------------------------------------ 
+# Process the "Human Activity Recognition Using Smartphones" dataset 
+# 
+# Did as part of corsera project work 
+# Author: Piyush Chopra
+# ------------------------------------------------------------------------------
+
+
+
+## load the data into R
+
+X_train <- read.table("T:/class docs/Data Mining/data mining/New Folder/UCI HAR Dataset/train/X_train.txt", quote="\"", comment.char="")
+y_train<-read.table("T:/class docs/Data Mining/data mining/New Folder/UCI HAR Dataset/train/y_train.txt", quote="\"", comment.char="")
+subject_train<-read.table("T:/class docs/Data Mining/data mining/New Folder/UCI HAR Dataset/train/subject_train.txt", quote="\"", comment.char="")
+
+features<-read.table("T:/class docs/Data Mining/data mining/New Folder/UCI HAR Dataset/features.txt", quote="\"", comment.char="")
+
+X_test <- read.table("T:/class docs/Data Mining/data mining/New Folder/UCI HAR Dataset/test/X_test.txt", quote="\"", comment.char="")
+y_test<-read.table("T:/class docs/Data Mining/data mining/New Folder/UCI HAR Dataset/train/y_test.txt", quote="\"", comment.char="")
+subject_test<-read.table("T:/class docs/Data Mining/data mining/New Folder/UCI HAR Dataset/test/subject_test.txt", quote="\"", comment.char="")
+
+
 mytrain<-X_train
 myclasslabels<-y_train
 
