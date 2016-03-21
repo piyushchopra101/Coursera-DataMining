@@ -59,7 +59,7 @@ Further analysis are perfomred on the total_data as base dataset
 ### Subset only those columns which have mean Observations
 ---
     mean_var<-total_data[,grep(".mean",names(total_data),value = TRUE)]
-- ###### grep function is used to grab all those colums which have the word "mean " in them
+-  grep function is used to grab all those colums which have the word "mean " in them
 
 ### Subset only those columns which have standard deviations observations
 ---
