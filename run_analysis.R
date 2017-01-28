@@ -1,7 +1,7 @@
 # ------------------------------------------------------------------------------ 
 # Process the "Human Activity Recognition Using Smartphones" dataset 
 # 
-# Did as part of corsera project work 
+# Did as part of coursera project work 
 # Author: Piyush Chopra
 # ------------------------------------------------------------------------------
 
